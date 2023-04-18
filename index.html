@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Coffee Masters</title>
+  </head>
+  <body>
+    <nav>
+      <img src="./coffee_masters_logo.png" class="logo" />
+      <span class="nav-title">Coffee Masters</span>
+    </nav>
+    <main>
+      <section class="wrapper items-container">
+        <h5 class="title">ITEMS</h5>
+        <ul class="items-list">
+          <li class="item-container">
+            <h5>1x</h5>
+            <ul class="item">
+              <li>Cappuccino</li>
+              <li>Lite foam</li>
+            </ul>
+            <div class="price">$3.35</div>
+          </li>
+          <li class="item-container">
+            <h5>1x</h5>
+            <ul class="item">
+              <li>Cappuccino</li>
+              <li>Lite milk</li>
+              <li>Double espresso</li>
+            </ul>
+            <div class="price">$3.85</div>
+          </li>
+          <li class="item-container">
+            <h5>1x</h5>
+            <ul class="item">
+              <li>Croissant</li>
+              <li>Butter</li>
+            </ul>
+            <div class="price">$2.45</div>
+          </li>
+        </ul>
+      </section>
+      <aside class="aside-wrapper-container">
+        <article class="wrapper">
+          <h5 class="title">NAME</h5>
+          <div class="input">
+            <label for="name-order" class="label">Name for order</label>
+            <input id="name-order" />
+          </div>
+        </article>
+        <article class="wrapper">
+          <h5 class="title">PAYMENT</h5>
+          <form>
+            <div class="input">
+              <label for="card-number" class="label">Card number</label>
+              <input id="card-number" type="number"/>
+            </div>
+            <div class="input">
+              <label for="ccv-number">CCV Number</label>
+              <input id="ccv-number" type="number"/>
+            </div>
+          </form>
+        </article>
+      </aside>
+    </main>
+    <footer>
+      <ul class="total-container">
+        <li><span>Subtotal:</span><span>$9.65</span></li>
+        <li><span>Tax:</span><span>$0.82</span></li>
+        <li><span>Total:</span><span>$10.47</span></li>
+      </ul>
+      <button>Place order</button>
+    </footer>
+  </body>
+</html>
